@@ -1,0 +1,126 @@
+# template to include archiver elements
+# for the annealing stage temperature controller 
+# 
+# % macro, name, Object and gui association name
+# % macro, device, device prefix
+
+# % archiver 10 Monitor
+record(bi, "$(device)LOOP1:AUTOTUNE:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP1:OUTPHI:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP1:OUTPLO:RBV")
+{
+}
+# % archiver 10 Monitor
+record(bi, "$(device)LOOP2:AUTOTUNE:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP2:OUTPHI:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP2:OUTPLO:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP1:PV:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP1:SP:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP1:WSP:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP1:O:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP1:RR:RBV")
+{
+}
+# % archiver 10 Monitor
+record(bi, "$(device)LOOP1:MAN:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP1:P:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP1:I:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP1:D:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP2:PV:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP2:SP:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP2:WSP:RBV")
+{
+}
+# % archiver 1 Monitor
+record(ai, "$(device)LOOP2:O:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP2:RR:RBV")
+{
+}
+# % archiver 10 Monitor
+record(bi, "$(device)LOOP2:MAN:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP2:P:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP2:I:RBV")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)LOOP2:D:RBV")
+{
+}
+# % archiver 10 Monitor
+record(bo, "$(device)PROGRUN")
+{
+}
+# % archiver 10 Monitor
+record(bo, "$(device)PROGRESET")
+{
+}
+# % archiver 10 Monitor
+record(ai, "$(device)PROGNUM:RBV")
+{
+}
+# % archiver 10 Monitor
+record(mbbi, "$(device)PROGSTAT:RBV")
+{
+}
+# % archiver 10 Monitor
+record(mbbi, "$(device)RECSEL:RBV")
+{
+}
+# % archiver 10 Monitor
+record(mbbi, "$(device)RECSSTAT:RBV")
+{
+}
